@@ -30,3 +30,12 @@ soup = BeautifulSoup(content.text, "html.parser")
 
 ---
 
+~~~python
+soup.prettify() 
+
+#Navigating tag names 
+soup.title
+soup.h1
+~~~
+
+

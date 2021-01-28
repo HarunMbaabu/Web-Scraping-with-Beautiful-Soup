@@ -15,23 +15,17 @@ conda install bs4
 conda install requests
 ~~~
 
-#### Importing the bs4 in the file 
-
-~~~~python
-from bs4 import BeautifulSoup
-~~~
-
-#### Importing the requests in the file 
-
 ~~~python
+#Importing the bs4 in the file 
+from bs4 import BeautifulSoup
+
+#Importing the requests in the file 
 import requests
-~~~ 
 
-#### Creating an instance of beutifulSoup 
-
-~~~Python
+#Creating an instance of beutifulSoup 
 content  = requests.get("https://www.linkedin.com/jobs/search/?keywords=data%20science") 
 soup = BeautifulSoup(content.text, "html.parser") 
+
 ~~~
 
 

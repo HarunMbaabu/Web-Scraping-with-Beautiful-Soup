@@ -1,0 +1,367 @@
+:root {
+  	--theme:#001f3f;
+  	--bgcolor:#001f3f;
+  	--font: 'Roboto';
+  	--boldtext:bold;
+  	--boldertext:bolder ;
+}
+
+*{
+	font-family: var(--font); 
+}
+
+/* Data Science East Africa Body  Componeent*/ 
+
+body{
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+/* Data Science East Africa NavBar Componeent*/
+
+.nav{
+	height: 70px;
+	width: 100%;
+	background-color: var(--theme);
+	top: 0px;
+	position: fixed;
+	
+}
+
+.nav a.logo{
+	display: inline;
+	font-size: 05vh;
+	float:left;
+	font-weight: var(--boldertext); 
+	margin-left: 25px;
+	padding-top: 22px;
+	color:white;
+	text-decoration: none;
+	letter-spacing: 4px;
+} 
+.mobile-navbar{
+	display: none;
+}
+.mobile-menu{
+	display: none;
+}
+.nav ul{
+	list-style: none;
+	letter-spacing: 0.5px;
+}
+
+.nav ul li{
+	padding: 8px;
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight: var(--boldtext);
+	float: right;
+	text-transform: uppercase;
+	background-color: 000;
+	letter-spacing: 0.5px;
+	padding-bottom: 10px; 
+	margin-right: 10px;
+	margin-bottom: 14px;
+	border-radius: 5px;
+}
+
+.nav ul li:hover {
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.nav ul li a{
+	padding-top: 26px;
+	text-decoration: none;
+	padding-bottom: 10px; 
+	margin-right: 10px;
+	margin-bottom: 19px;
+	color: white;
+}
+
+.search{
+	color: white;
+}
+
+/* Data Science Barner Component */
+
+.dsea-barner{
+	width: 100vw;
+	height: 60vh;
+	margin-top: 70px;
+	background-color: var(--bgcolor);
+	overflow: hidden;
+}
+.barner-first-div{
+	float: left;
+	width: 100vw;
+	height: 60vh;
+	margin-top: 5vh;
+	padding-left: 5vw;
+}
+
+/* DSEA Careers component */
+
+.careers{
+	width: 100vw;
+	height: 50vh;
+	display: block;
+	background-color: white;
+	overflow-x: hidden;
+}
+.careers-header{
+	margin-left: 10vw;
+}
+.careers-header{
+	font-size: 18px;
+	font-weight: bold;
+}
+.careers-caterory{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.caterory{
+	height: 30vh;
+	width: 35vw;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-left: 3%;
+	box-shadow: 
+    	inset 0 0 15px rgba(55, 84, 170,0),
+    	inset 0 0 20px rgba(255, 255, 255,0),
+    	7px 7px 15px rgba(55, 84, 170,.15),
+    	-7px -7px 20px rgba(255, 255, 255,1),
+    	inset 0px 0px 4px rgba(255, 255, 255,.2);
+	border-bottom:5px solid rgb(25,25,112);
+	text-align: center;
+} 
+.caterory:hover{
+	background-color: red;
+}
+.caterory-header{
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+
+
+
+
+/* DSEA Feature Component*/
+.Feature{
+	width: 100vw;
+	height: 50vh;
+	background-color:var(--bgcolor);
+	overflow-x: hidden;
+
+}
+
+.Feature p{
+	text-align: center;
+	color: white;
+	font-weight: var(--boldtext);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Feature-heading{
+	color: white;
+    font-size: 42px;
+    font-weight: bolder;
+	padding-top: 60px;
+	margin-top: 50px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Feature-button{
+	margin-top: 15px;
+	margin-left: 45%;
+	position: absolute;
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+	height: 40px;
+	width: 120px;
+	border-radius: 5px;	
+}
+
+.Feature-button:hover{
+	background-color:rgb(0,0,128);
+
+}
+
+
+/* DSEA Learning path Componrnt */
+.learning-path{
+	width: 100vw;
+	height: 64vh;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.learning-path-header{
+	margin-left: 10vw;
+
+}
+
+.learning-path-head{
+	font-size: 18px;
+	font-weight: bold;
+}
+.technologies{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+.technology{
+	height: 23vh;
+	width: 25vw;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 8px;
+	margin-left: 3%;
+	box-shadow: 
+    	inset 0 0 15px rgba(55, 84, 170,0),
+    	inset 0 0 20px rgba(255, 255, 255,0),
+    	7px 7px 15px rgba(55, 84, 170,.15),
+    	-7px -7px 20px rgba(255, 255, 255,1),
+    	inset 0px 0px 4px rgba(255, 255, 255,.2);
+	border-bottom:5px solid rgb(25,25,112);
+	text-align: center;
+}
+
+/* All Courses Component */ 
+.all-courses{
+	background-color: white;
+	width: 100vw;
+	height: 10vh;
+	background-color: red;
+	color: black;
+	overflow: scroll;
+
+}
+
+
+.register{ 
+	height: 83vh;  
+	width: 100vw;  
+	background-color:#001f3f;"
+}
+.register-left-division{ 
+	height: 67vh;  
+	float: left;  
+	width: 45vw; 
+	display: grid;  
+	justify-content: center;  
+	align-items: center; 
+	margin-left: 56px;  
+	margin-right: 20px;  
+	font-weight: bolder;"
+}
+
+.register-right-division{ 
+	float:right;  
+	width: 33vw;  
+	background-color: white; 
+	height:  67vh; 
+	margin-right: 15%; 
+	margin-top: 5vh;
+    display: grid; 
+    justify-content: center; 
+    align-items: center;
+    border-radius:10px; "
+}
+
+.white-color{
+	color: white;
+}
+
+input[type=text] { 
+	height: 24px;  
+	width: 200px;  
+	border-radius: 3px;	
+}
+.submit-btn{
+	float: right; 
+	margin-top: 8px; 
+	height: 28px; 
+	width: 100px; 
+	border-radius: 5px;"
+}
+
+
+/* DSEA Footer Component */
+
+.dsea-footer{
+	width: 100%;
+	height: 37vh;
+	display:inline-flex;
+	background-color: black;
+	color: #fff;
+} 
+
+.Footer-Links ul{
+	list-style: none;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.Footer-Links ul li{
+	text-decoration: none;
+}
+
+.foot{
+    font-weight: var(--boldtext);
+	padding: 50px;
+	padding-top: 40px
+}
+
+.socialmedia{
+	padding: 0.5vh;
+}
+
+.input-name{
+	height: 04vh;
+	border-radius: 0.5vh;
+}
+
+.input-email{
+	height: 04vh;
+	border-radius: 0.5vh;
+}
+
+.subscribe-button{
+	width: 07vw;
+	height: 05vh;
+	border-radius: 0.8vh;
+	font-size: 14px;
+	font-weight: bolder;
+	letter-spacing: 0.5px;
+}
+
+.copyright{
+	padding-top: 15px;
+	height: 9vh;
+	width: 100%;
+	background-color: black;
+	color: white;
+	
+}
+.copyright-p{
+	font-size: 16px;
+	font-weight:var(--boldtext);
+	
+
+}
+.copyright-p a{
+	text-decoration: none;
+}
